@@ -15,5 +15,6 @@ public class WorksWithHerokuServlet extends HttpServlet {
         PrintWriter writer = response.getWriter();
         writer.print("WEB APP WORKING");
         writer.close();
+        System.out.println("Hello World");
     }
 }
