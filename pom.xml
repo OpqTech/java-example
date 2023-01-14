@@ -10,11 +10,6 @@
          <maven.compiler.source>1.6</maven.compiler.source>
          <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
-    <properties>
-        <sonar.host.url>http://52.66.242.98:9005</sonar.host.url>
-        <sonar.login>sqa_9b26d94c3550a26a24412e03f4388492e05e8d71</sonar.login>
-        <sonar.language>java</sonar.language>
-        <sonar.scm.provider>git</sonar.scm.provider>
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -38,10 +33,6 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupid>org.sonarsource.scanner.maven</groupid>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.2</version>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
