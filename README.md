@@ -4,3 +4,4 @@ I can update data here
 Shruthi can do anything here
 RCB 
 Kohli
+Namma Bengaluru
