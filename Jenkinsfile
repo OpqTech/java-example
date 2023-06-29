@@ -1,5 +1,8 @@
 pipeline{
 	agent {label 'slave-1'}
+	parameters {
+ 		 string defaultValue: 'example', name: 'test'
+	}
 	stages{
         stage('Build stage') {
             steps {
