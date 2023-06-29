@@ -1,5 +1,5 @@
 pipeline{
-	agent { label 'slave2'}
+	agent { label 'tomcat_slave'}
 	stages{
         stage('Build stage') {
             steps {
@@ -15,7 +15,7 @@ pipeline{
 		}
         stage('Deploy stage') {
             steps {
-                echo 'This is deploy stage'
+                echo 'This is deployed stage'
                 sh 'sleep 5'
 			}
 		}
