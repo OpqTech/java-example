@@ -1,6 +1,4 @@
-projectKey=7a35acc4515a4fd1bdf37490948cb665a7b8c98c
-serverUrl=http://localhost:9000
-serverVersion=7.4.0.18908
-dashboardUrl=http://localhost:9000/dashboard?id=7a35acc4515a4fd1bdf37490948cb665a7b8c98c
-ceTaskId=AWcy7EJtJXd29NOl72Hg
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWcy7EJtJXd29NOl72Hg
+projectKey=squ_e8d4f797eb1d4b8bbeddef6b2c7ce59a180b8d19
+serverUrl=http://3.111.37.35:9000
+serverVersion= 9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=squ_e8d4f797eb1d4b8bbeddef6b2c7ce59a180b8d19
